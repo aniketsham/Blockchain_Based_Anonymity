@@ -1,0 +1,39 @@
+.label-home {
+  padding: 0.5em; /* Keeping it flexible with em */
+}
+
+.input-home {
+  margin-top: 1em;
+  margin-left: 0.5em; /* Using em for consistency and scalability */
+  margin-right: 0.5em; /* Using em instead of px */
+  padding: 1em;
+  min-width: 50%; /* Making width responsive */
+  box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+}
+
+.input-home,
+.label-home {
+  display: block;
+  margin-bottom: 0.75em; /* Adjusted for a balanced spacing */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .input-home {
+    min-width: 90%; /* Allows more room on smaller screens */
+    margin-left: auto; /* Centering the input */
+    margin-right: auto;
+  }
+
+  .label-home,
+  .input-home {
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-home {
+    min-width: 95%; 
+  }
+}
