@@ -2,8 +2,6 @@
 
 A decentralised voting system based on [Ethereum blockchain](https://ethereum.org/dapps/) technology.
 
-> This started as a final year project for the IT Degree that I was/am pursuing, now aiming to make this more than that.
-
 ## System Workflow
 
 A brief explanation on the basic workflow of the application.
@@ -92,7 +90,7 @@ A brief explanation on the basic workflow of the application.
 
 Possible features to add/improve within the app.
 
-- [ ] **Email Verification**—adding email/phone verification (OTP, etc..) while registering for voters.
+- [ ] **Email Verification**—adding email/phone verification (OTP, etc..) while registering for voters.[Done]
 - [ ] **Automated Verification**—adding an automated verification (rather than manually approving by the admin) for the registered users. This could be based on the custom cooperation email, custom list of emails, or custom list of phone numbers, etc.
 - [ ] **Report**—option to generate a report at the end of an election. The report could contain a range of information including the number of people that were eligible to vote, the number of people that participated in the election, a bar-chart/pie-chart showing the election statistics, etc.
 - [ ] **Workflow improvements**—overall workflow improvements (eg. option to add candidates within the election setup page), with overall GUI improvements.
